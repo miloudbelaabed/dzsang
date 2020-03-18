@@ -31,7 +31,7 @@
             <a class="nav-item nav-link" href="#">Contact Us</a>
           </div>
         </div>
-      </nav>
+    </nav>
       <!-- navbar end -->
 
 <!-- SLIDER SHOW START-->
@@ -129,7 +129,7 @@
 
 
     <footer>
-    <table class="table table-striped table-dark" hidden>
+    <table class="table table-striped table-dark" hidden="true">
     <thead>
         <tr>
             <th scope="col"> Fullname</th>

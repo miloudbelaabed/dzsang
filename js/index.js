@@ -28,14 +28,12 @@ function selected(){
 } 
 
  function search(){
-   
     let x = $('.form-control').serialize();
+    console.log(x);
     $.post('includes/validate.php',x,function (data){
      // console.log(data[0]["velent_key"]);
        var jsondata = data;
-       console.log(jsondata[0]);
-        
-     
+        $('table').removeAttr('hidden');
     });
 }
 
