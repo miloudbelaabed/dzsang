@@ -1,0 +1,187 @@
+/* color : #6b34ff,
+         : #39d39f,
+*/
+body {
+   padding: 0px auto;
+   margin: 0px auto;
+    /*height: 2000px;*/
+}
+.bg-light {
+    padding: 0;
+}
+.navbar-brand {
+    padding: 22px;
+    font-weight: 500;
+    
+}
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: column;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin: 0px 20px 00px 20px;
+    padding: 25px;
+   
+
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    
+    padding: 25px;
+    color: #fff;
+    background-color: #c82333;
+}
+.content {
+  
+     background: url(../imgs/55.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    width: 100%;
+
+}
+.row {
+    background-color: rgba(9, 9, 9, 0.7);
+    min-height: 450px;
+    
+    color: #DDD;
+    border: 2px solid  #e41817;
+}
+.inputs {
+   
+}
+.valid{
+    border: 2px solid green;
+}
+.invalid{
+    border: 2px solid red;
+}
+/* SLIDER SHOW STYLING */
+
+.btn-success {
+    padding: 10px 15px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+.slider-show {
+    border: 2px solid #c82333;
+}
+  .carousel-caption {
+    opacity: 0.6;
+    background-color: black;
+    border-radius: 38px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  
+  .carousel-indicators li {
+    height: 6px !important;
+    background-color: #ccc;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #e41817;
+  }
+  
+  .test {
+    height: 200px;
+    padding-top: 200px;
+  }
+  
+  .carousel-control-prev-icon {
+    background-color: #e41817;
+  }
+  
+  .carousel-control-next-icon {
+    background-color: #e41817;
+  }
+  .carousel .carousel-inner .carousel-item img {
+    background-size: cover;
+  }
+  /*s
+
+
+  */
+
+
+/* Start Section Contact US */
+
+.contact-us {
+    background: url(../imgs/4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+
+}
+.contact-us .fields {
+    background-color: rgba(9, 9, 9, 0.8);
+    min-height: 450px;
+
+    color: #DDD;
+    /*border: 2px solid  #e41817;*/
+
+}
+.contact-us .row{
+    margin-top: 40px!important;
+    justify-content: center;
+    line-height: 40px;
+    padding-top: 120px;
+}
+
+.conta {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 15px!important;
+}
+.conta .form-group .form-controle {
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    width:50%;
+    margin-right: 15px!important;
+    margin-left: 15px!important;
+    padding-left: 10px;
+
+}
+.text-ar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-ar button{
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    width: 50%;
+    margin-right: 30px!important;
+    margin-left: 16px!important;
+
+
+}
+.text-ar textarea{
+    margin-left: 16px!important;
+    margin-top: 16px!important;
+    height: 40%!important;
+    margin-right: 30px!important;
+    padding-left: 10px;
+
+    width: 50%;
+
+}
+.contact-us input[type="text"],
+.contact-us textarea{
+
+    background: rgba(82, 78, 78, 0.5);
+    color: #FFF;
+    border: none;
+
+}
+/* End Section Contact US */

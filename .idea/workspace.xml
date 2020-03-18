@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dzsang" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1YiXTAjprmmyHWcVQXpqJe4CUvP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\dzsang\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\dzsang" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.php">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="register.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/register.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="register.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/register.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="register.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/register.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="register_valid.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/register_valid.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="PHP Script.register_valid.php" />
+        <item itemvalue="JavaScript Debug.register.php" />
+        <item itemvalue="PHP Script.register.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="" />
+      <created>1583426393850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583426393850</updated>
+      <workItem from="1583426395574" duration="313000" />
+      <workItem from="1583432503141" duration="265000" />
+      <workItem from="1583432779132" duration="303000" />
+      <workItem from="1583439958325" duration="264000" />
+      <workItem from="1583480979044" duration="418000" />
+      <workItem from="1583621465300" duration="1616000" />
+      <workItem from="1583698846756" duration="614000" />
+      <workItem from="1583842170523" duration="492000" />
+      <workItem from="1583851028022" duration="129000" />
+      <workItem from="1584104679551" duration="2824000" />
+      <workItem from="1584113742895" duration="1224000" />
+      <workItem from="1584172259694" duration="6890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="177" key="#CLI_Interpreters" timestamp="1584104973119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="177" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1584104973119" />
+    <state x="683" y="125" key="#PHP" timestamp="1584104974532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="683" y="125" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1584104974532" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583426435509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583426435509" />
+    <state x="640" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584104913374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584104913374" />
+    <state x="686" y="235" key="#register.php" timestamp="1584105111320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="235" key="#register.php/0.0.1920.1040@0.0.1920.1040" timestamp="1584105111320" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1584104966480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584104966480" />
+    <state width="1877" height="165" key="GridCell.Tab.0.bottom" timestamp="1584197918332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
+    <state width="1877" height="165" key="GridCell.Tab.0.center" timestamp="1584197918332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
+    <state width="1877" height="165" key="GridCell.Tab.0.left" timestamp="1584197918332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
+    <state width="1877" height="165" key="GridCell.Tab.0.right" timestamp="1584197918332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
+    <state x="794" y="451" key="NewPhpFileDialog" timestamp="1584182436990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="451" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584182436990" />
+    <state x="514" y="243" key="SettingsEditor" timestamp="1583842570789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="514" y="243" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583842570789" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584172265123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584172265123" />
+  </component>
+</project>
