@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/register_valid.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/register_valid.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/validate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/states.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +50,20 @@
       <recent name="C:\xampp\htdocs\projects\dzsang" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="register.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/register.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/index.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
     <configuration name="register.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/register.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
-    <configuration name="register.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/register.php">
+    <configuration name="contactus.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/contactus.php">
       <method v="2" />
     </configuration>
     <configuration name="register_valid.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/register_valid.php">
@@ -64,10 +71,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="PHP Script.contactus.php" />
         <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="PHP Script.register_valid.php" />
         <item itemvalue="JavaScript Debug.register.php" />
-        <item itemvalue="PHP Script.register.php" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +101,11 @@
       <workItem from="1584104679551" duration="2824000" />
       <workItem from="1584113742895" duration="1224000" />
       <workItem from="1584172259694" duration="6890000" />
-      <workItem from="1584559413885" duration="2342000" />
+      <workItem from="1584559413885" duration="4276000" />
+      <workItem from="1584627007328" duration="224000" />
+      <workItem from="1584649433236" duration="16000" />
+      <workItem from="1584706203235" duration="81000" />
+      <workItem from="1584866033614" duration="15764000" />
     </task>
     <servers />
   </component>
@@ -125,22 +137,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584104966480" />
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom" timestamp="1584197918332">
+    <state width="1106" height="165" key="GridCell.Tab.0.bottom" timestamp="1584882105696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
-    <state width="1877" height="165" key="GridCell.Tab.0.center" timestamp="1584197918332">
+    <state width="1106" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
+    <state width="1106" height="165" key="GridCell.Tab.0.center" timestamp="1584882105696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
-    <state width="1877" height="165" key="GridCell.Tab.0.left" timestamp="1584197918332">
+    <state width="1106" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
+    <state width="1106" height="165" key="GridCell.Tab.0.left" timestamp="1584882105696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
-    <state width="1877" height="165" key="GridCell.Tab.0.right" timestamp="1584197918332">
+    <state width="1106" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
+    <state width="1106" height="165" key="GridCell.Tab.0.right" timestamp="1584882105696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584197918332" />
+    <state width="1106" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
     <state x="794" y="451" key="NewPhpFileDialog" timestamp="1584182436990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -149,9 +161,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="514" y="243" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583842570789" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584559413906">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584866903783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584559413906" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584866903783" />
   </component>
 </project>

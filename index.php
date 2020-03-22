@@ -35,34 +35,26 @@
       <!-- navbar end -->
 
 <!-- SLIDER SHOW START-->
-    <section class="slider-show">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="imgs/1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="imgs/2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="imgs/3.jpg" alt="Third slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    </section>
+   <section class="slider-show">
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+       </ol>
+       <div class="carousel-inner">
+           <div class="carousel-item active">
+               <img class="d-block w-100" src="imgs/1.jpg" alt="First slide">
+           </div>
+           <div class="carousel-item">
+               <img class="d-block w-100" src="imgs/2.jpg" alt="Second slide">
+           </div>
+           <div class="carousel-item">
+               <img class="d-block w-100" src="imgs/3.jpg" alt="Third slide">
+           </div>
+       </div>
+   </div>
+   </section>
 <!--    END SLIDER SHOW-->
     </header>
 
@@ -70,8 +62,10 @@
         <div class="container-fluid">
 
         <div class="row text-center">
+          <div class="title container-fluid">
          <h1 class="text-center"> قال تعالى (وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا) </h1>
-          <div class="inputs col-12">
+        </div> 
+         <div class="inputs col-12">
             <!-- ******************** -->
             <div class="form-group col-6 col-sm-4 d-inline-flex p-2">
                
@@ -125,40 +119,82 @@
       </div>
     </div>
     </div>
-
-
-
-    <footer>
+<!-- here a table need to include in a div or some balizes -->
     <table class="table table-striped table-dark" hidden="true">
     <thead>
         <tr>
             <th scope="col"> Fullname</th>
-            <th scope="col">State</th>
-            <th scope="col">Town</th>
+
             <th scope="col">Phone</th>
             <th scope="col">Email</th>
             <th scope="col">Blood type</th>
+            <th scope="col">State</th>
+            <th scope="col">Town</th>
             <th scope="col">Gender</th>
             
         </tr>
     </thead>
     <tbody>
-          <tr>
-            <th scope="row"></th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+
 
     </tbody>
 </table>
-
+<!-- End of the table -->
 
 </div>
-    </footer>
+        <div class="exmple">Hello walid are you here ready</div>
+        
+        <!-- Section of contact us need also to include it in a balize -->
+        
+        <section class="contact-us">
+          <div class="fields">
+              <div class=" container-fluid">
+                  <div class="note text-center">
+                      <i class="fa fa-headphones fa-5x"></i>
+                      <h1>Tell Us</h1>
+                      <p lead>Feel Free To contact Us</p>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="conta">
+      
+                              <form role="form">
+                                  <div class="form-group">
+                                      <input type="text" name="Full_name" class="form-controle input-lg" placeholder="Full name">
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="text" name="Email" class="form-controle input-lg" placeholder="Email">
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="text" name="Phone" class="form-controle input-lg" placeholder="Phone numbre">
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+      
+                      <div class="col-md-6">
+                          <div class="text-ar">
+                              <div class="form-group">
+                                  <textarea class="form-controle input-lg" name="message" placeholder="message"></textarea>
+                              </div>
+                              <div class="form-group">
+                                  <button type="button" class="btn btn-danger btn-lg" onclick="sendMessage()">Contact Us</button>
+                              </div>
+                          </div>
+      
+                      </div>
+      
+                  </div>
+              </div>
+          </div>
+      </section>
+   <!-- End Section of contact us  -->
+   
+      <footer>
+        <div class="copyright text-center lead">
+                Copyright © 2020 <span> Raz9i_aouf & Bassous</span> .Inc
+              </div>
+        </footer>
 
 
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -166,8 +202,6 @@
     <script src="js/states.js"></script>
     <script src="js/index.js"></script>
     
-    
 
-    
 </body>
 </html>

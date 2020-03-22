@@ -12,10 +12,16 @@
         rel="stylesheet"
     />
     <title>Contact Us</title>
+   
 </head>
 <body>
-<!-- Start Section Contact US -->
+    
+<header>
+<h1 class="text-center">DzSang</h1>
 
+</header>
+<!-- Start Section Contact US -->
+<div class="content">
 <section class="contact-us">
     <div class="fields">
         <div class=" container-fluid">
@@ -30,13 +36,13 @@
 
                         <form role="form">
                             <div class="form-group">
-                                <input type="text" class="form-controle input-lg" placeholder="Username">
+                                <input type="text" name="Full_name" class="form-controle input-lg" placeholder="Full name">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-controle input-lg" placeholder="Email">
+                                <input type="text" name="Email" class="form-controle input-lg" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-controle input-lg" placeholder="call phone">
+                                <input type="text" name="Phone" class="form-controle input-lg" placeholder="Phone numbre">
                             </div>
                         </form>
                     </div>
@@ -45,10 +51,10 @@
                 <div class="col-md-6">
                     <div class="text-ar">
                         <div class="form-group">
-                            <textarea class="form-controle input-lg" placeholder="message"></textarea>
+                            <textarea class="form-controle input-lg" name="message" placeholder="message"></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="button" class="btn btn-danger btn-lg">Contact Us</button>
+                            <button type="button" class="btn btn-danger btn-lg" onclick="sendMessage()">Contact Us</button>
                         </div>
                     </div>
 
@@ -58,10 +64,16 @@
         </div>
     </div>
 </section>
+</div>
 <!-- End Section Contact US -->
-
+<footer>
+<div class="copyright text-center lead">
+        Copyright © 2020 <span> Raz9i_aouf & Bassous</span> .Inc
+      </div>
+</footer>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/contactus.js"></script>
 </body>
 </html>

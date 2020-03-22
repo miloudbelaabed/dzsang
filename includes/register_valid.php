@@ -19,11 +19,6 @@
             echo "data Not inserted !";
         }
      }
-
-     
  }
 
 ?>
-
-
-

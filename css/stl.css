@@ -42,12 +42,15 @@ body {
     width: 100%;
 
 }
+.content .title{
+    margin-top: 20px;
+}
 .row {
     background-color: rgba(9, 9, 9, 0.7);
     min-height: 450px;
     
     color: #DDD;
-    border: 2px solid  #e41817;
+    /* border: 2px solid  #e41817; */
 }
 .inputs {
    
@@ -121,9 +124,7 @@ body {
 .contact-us .fields {
     background-color: rgba(9, 9, 9, 0.8);
     min-height: 450px;
-
     color: #DDD;
-    /*border: 2px solid  #e41817;*/
 
 }
 .contact-us .row{
@@ -185,3 +186,18 @@ body {
 
 }
 /* End Section Contact US */
+
+/* start Section Copyright */
+footer .copyright {
+    background-color: #c82333;
+     color: #AAA; 
+    padding: 15px 0px!important;
+    font-size: 22px;
+
+  }
+  footer .copyright span {
+    color: #0895D1;
+  }
+
+
+  /* End Section Copyright */
