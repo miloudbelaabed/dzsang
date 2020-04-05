@@ -3,6 +3,11 @@ require 'connection.php';
 $bloodType = $_POST['blood_type'];
 //echo $bloodType;
 $state = $_POST['agent_state'];
+if($state)
+
+
+
+
 if($_POST['agent_town']){
  $town = $_POST['agent_town'];
 }

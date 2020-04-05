@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/register_valid.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/register_valid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/validate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/states.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1YiXTAjprmmyHWcVQXpqJe4CUvP" />
@@ -39,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -50,11 +48,11 @@
       <recent name="C:\xampp\htdocs\projects\dzsang" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/index.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="register.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/register.php" useBuiltInWebServerPort="true">
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/register.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/index.js" working-dir="$PROJECT_DIR$/js">
@@ -63,7 +61,7 @@
     <configuration name="register.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/register.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
-    <configuration name="contactus.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/contactus.php">
+    <configuration name="contactus.html" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/contactus.html">
       <method v="2" />
     </configuration>
     <configuration name="register_valid.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/register_valid.php">
@@ -71,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.index.js" />
-        <item itemvalue="PHP Script.contactus.php" />
-        <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="PHP Script.contactus.html" />
         <item itemvalue="PHP Script.register_valid.php" />
-        <item itemvalue="JavaScript Debug.register.php" />
+        <item itemvalue="JavaScript Debug.register.html" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +103,13 @@
       <workItem from="1584627007328" duration="224000" />
       <workItem from="1584649433236" duration="16000" />
       <workItem from="1584706203235" duration="81000" />
-      <workItem from="1584866033614" duration="15764000" />
+      <workItem from="1584866033614" duration="16504000" />
+      <workItem from="1585037678644" duration="1470000" />
+      <workItem from="1585261044656" duration="86000" />
+      <workItem from="1585689296025" duration="5468000" />
+      <workItem from="1585869579591" duration="6000" />
+      <workItem from="1586088536901" duration="29000" />
+      <workItem from="1586088634560" duration="1242000" />
     </task>
     <servers />
   </component>
@@ -133,37 +137,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="235" key="#register.php/0.0.1920.1040@0.0.1920.1040" timestamp="1584105111320" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1584104966480">
+    <state x="598" y="115" key="CommitChangelistDialog2" timestamp="1586091102953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584104966480" />
-    <state width="1106" height="165" key="GridCell.Tab.0.bottom" timestamp="1584882105696">
+    <state x="598" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091102953" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1585261128749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1106" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
-    <state width="1106" height="165" key="GridCell.Tab.0.center" timestamp="1584882105696">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585261128749" />
+    <state width="1877" height="166" key="GridCell.Tab.0.bottom" timestamp="1585696043717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1106" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
-    <state width="1106" height="165" key="GridCell.Tab.0.left" timestamp="1584882105696">
+    <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043717" />
+    <state width="1877" height="166" key="GridCell.Tab.0.center" timestamp="1585696043716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1106" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
-    <state width="1106" height="165" key="GridCell.Tab.0.right" timestamp="1584882105696">
+    <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043716" />
+    <state width="1877" height="166" key="GridCell.Tab.0.left" timestamp="1585696043716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1106" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584882105696" />
+    <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043716" />
+    <state width="1877" height="166" key="GridCell.Tab.0.right" timestamp="1585696043716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043716" />
     <state x="794" y="451" key="NewPhpFileDialog" timestamp="1584182436990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="451" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584182436990" />
+    <state x="766" y="233" key="RollbackChangesDialog" timestamp="1586091028586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="233" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586091028586" />
     <state x="514" y="243" key="SettingsEditor" timestamp="1583842570789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="514" y="243" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583842570789" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584866903783">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586088638012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584866903783" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586088638012" />
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586091035902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091035902" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586091025414">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586091025414" />
   </component>
 </project>
