@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="">
+    <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="remove the condition of chosing the bllodtype to enable the button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/register_valid.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/register_valid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/getcities.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/getcities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/validate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/states.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +36,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -109,12 +109,27 @@
       <workItem from="1585689296025" duration="5468000" />
       <workItem from="1585869579591" duration="6000" />
       <workItem from="1586088536901" duration="29000" />
-      <workItem from="1586088634560" duration="1242000" />
+      <workItem from="1586088634560" duration="3966000" />
+      <workItem from="1586212314347" duration="41000" />
+      <workItem from="1586212368262" duration="44000" />
+      <workItem from="1586222128188" duration="821000" />
     </task>
+    <task id="LOCAL-00001" summary="remove the condition of chosing the bllodtype to enable the button">
+      <created>1586091119685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586091119685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove the condition of chosing the bllodtype to enable the button" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove the condition of chosing the bllodtype to enable the button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="177" key="#CLI_Interpreters" timestamp="1584104973119">
@@ -137,10 +152,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="235" key="#register.php/0.0.1920.1040@0.0.1920.1040" timestamp="1584105111320" />
-    <state x="598" y="115" key="CommitChangelistDialog2" timestamp="1586091102953">
+    <state x="598" y="115" key="CommitChangelistDialog2" timestamp="1586091127586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091102953" />
+    <state x="598" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091127586" />
     <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1585261128749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,21 +184,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="233" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586091028586" />
-    <state x="514" y="243" key="SettingsEditor" timestamp="1583842570789">
+    <state x="514" y="243" key="SettingsEditor" timestamp="1586091266036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="514" y="243" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583842570789" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586088638012">
+    <state x="514" y="243" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586091266036" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586091168863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586088638012" />
-    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586091035902">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091168863" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586212375855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091035902" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1586091025414">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586212375855" />
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586223215162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586091025414" />
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586223215162" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586091316414">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586091316414" />
   </component>
 </project>

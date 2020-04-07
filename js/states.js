@@ -27,13 +27,12 @@ function selected(){
   if($('#state').val() != 0){
 
     let cities = citiesData.communes.filter(city => city.wilaya_id == $('#state').val() );
-    $("#town").html('<option selected disabled value="0">--town--</option>');
+    // $("#town").html('<option selected disabled value="0">--town--</option>');
     cities.map(city => {
 
       $('#town').append(`<option value=${(city.id)} >${city.nom_com}</option>`);
     });
-   
-  }else{
-    $('#town').html('<option selected disabled value="0">--town--</option>');
-  }
+    }else{
+     $('#town').html('<option selected disabled value="0">--town--</option>');
+   }
 } 
