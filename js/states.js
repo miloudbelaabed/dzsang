@@ -18,7 +18,7 @@ function getStates(){
       $('#state').append(`<option value=${(wilaya.id)} >${wilaya.nom}</option>`);
 
     });
- 
+
 });
 }
 

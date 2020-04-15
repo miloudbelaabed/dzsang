@@ -1,11 +1,11 @@
 <?php
     require 'connection.php';
- if($_SERVER['REQUEST_METHOD'] == 'POST'){
-   
-     $full_name = $_POST['full_name']; 
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+     $full_name = $_POST['name'];
      $email =  $_POST['email'];
      $phone =  $_POST['phone'];
-     //$password =  $_POST['pass_one'];
+     $password =  $_POST['pass1'];
      $blood =  $_POST['blood_type'];
      $state =  $_POST['agent_state'];
      $town =  $_POST['agent_town'];
@@ -20,5 +20,8 @@
         }
      }
  }
+
+
+
 
 ?>

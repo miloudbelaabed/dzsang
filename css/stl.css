@@ -2,7 +2,7 @@
          : #39d39f,
 */
 body {
-   padding: 0px auto;
+   padding: 0;
    margin: 0px auto;
     /*height: 2000px;*/
 }
@@ -131,7 +131,6 @@ body {
     margin-top: 40px!important;
     justify-content: center;
     line-height: 40px;
-    padding-top: 120px;
 }
 
 .conta {
