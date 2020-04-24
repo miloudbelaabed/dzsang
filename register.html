@@ -21,34 +21,34 @@
    
 
         <div class="form-group">
-            <label for="Name">Full Name</label>
+            <label>Full Name</label>
             <input type="text" name="full_name" expr-data="^[a-zA-Z]+ [a-zA-Z]+$" class="form-control" id="full_name"  aria-describedby="emailHelp" placeholder="Enter Your Name">
             <small class="form-text text-muted" id="name_error" style="color:red!important;"></small>
           </div>
 
           <div class="form-group">
-            <label for="InputEmail">Email address</label>
+            <label>Email address</label>
             <input type="email" name="email" expr-data="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
             <small class="form-text text-muted" id="email_error"></small>
           </div>
 
           <div class="form-group">
-            <label for="InputPhone">Phone Number</label>
+            <label>Phone Number</label>
             <input type="text" name="phone" expr-data="^0[1-9][0-9]{8}$" class="form-control" id="Phone" placeholder="Enter Your Phone">
             <small class="form-text text-muted" id="phone_error"></small>
           </div>
 <!--          Password register add it when you create a sessions for your site !-->
-<!--          <div class="form-group">-->
-<!--            <label for="InputPassword1">Password</label>-->
-<!--            <input type="password" name="pass_one" expr-data="^(?=(.*\d){1})(.*\S)(?=.*[a-zA-Z\S])[0-9a-zA-Z\S]{7,}" class="form-control" id="password1" placeholder="Password">-->
-<!--            <small class="form-text text-muted" id="pass_error"></small>-->
-<!--          </div>-->
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="pass_one" expr-data="^(?=(.*\d){1})(.*\S)(?=.*[a-zA-Z\S])[0-9a-zA-Z\S]{7,}" class="form-control" id="password1" placeholder="Password">
+            <small class="form-text text-muted" id="pass_error"></small>
+          </div>
 
-<!--          <div class="form-group">-->
-<!--            <label for="InputPassword1"> Repeat password</label>-->
-<!--            <input type="password" name="pass_two" class="form-control" id="password2" placeholder="Repeat Password">-->
-<!--            <small class="form-text text-muted" id="pass2_error"></small>-->
-<!--          </div>-->
+          <div class="form-group">
+            <label > Repeat password</label>
+            <input type="password" name="pass_two" class="form-control" id="password2" placeholder="Repeat Password">
+            <small class="form-text text-muted" id="pass2_error"></small>
+          </div>
           <div class="form-group">
                
             <select class="form-control" name="blood_type" id="blood_Type">
@@ -65,7 +65,7 @@
             </div>
 
             <div class="form-group">
-               
+
                 <select class="form-control" name="agent_state"  id="state"> 
                 <option selected="selected" value="0">--state--</option>
                     
@@ -81,17 +81,17 @@
                     </select>
                      
                       </div>
-                      <label for="exampleInputPassword1">Gender</label>
+                      <label >Gender</label>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="gender"  value="MALE" checked>
-            <label class="form-check-label" for="male">
+            <label class="form-check-label">
               Male
             </label>
           </div>
 
           <div class="form-check">
             <input class="form-check-input" type="radio" name="gender" value="FEMALE" checked>
-            <label class="form-check-label" for="female">
+            <label class="form-check-label" >
               Female
             </label>
           </div>
@@ -118,8 +118,8 @@ const Pass2 = document.querySelector('#password2');
 const Name_error = document.querySelector('#name_error');
 const Email_error = document.querySelector('#email_error');
 const Phone_error = document.querySelector('#phone_error');
-// const Pass1_error = document.querySelector('#pass_error');
-// const Pass2_error = document.querySelector('#pass2_error');
+const Pass1_error = document.querySelector('#pass_error');
+const Pass2_error = document.querySelector('#pass2_error');
 
 function validate(){
   let regxFullname = new RegExp($(Full_name).attr('expr-data'));
@@ -170,36 +170,37 @@ function validate(){
 
 });
 // PASSWORD VERIFICATION HERE !
-//   let regxPass = new RegExp($(Pass1).attr('expr-data'));
-//   $(Pass1).on('keyup',function(){
-//   if(!regxPass.test($(Pass1).val())){
-//     $(Pass1).removeClass('valid');
-//       $(Pass1).addClass('invalid');
-//     $(Pass1_error).text("Password not match");
-//     $(Pass1).focus();
-//   }else{
-//     $(Pass1).removeClass('invalid');
-//       $(Pass1).addClass('valid');
-//     $(Pass1_error).text("");
-//   }
-//
-// });
-//
-// $(Pass2).on('keyup',function(){
-//   if((!regxPass.test($(Pass1).val())) || ($(Pass2).val() != $(Pass1).val()) )
-//    {
-//     $(Pass2).removeClass('valid');
-//       $(Pass2).addClass('invalid');
-//     $(Pass2_error).text("the passowrds not the same");
-//     $(Pass2).focus();
-//
-//   }else{
-//     $(Pass2).removeClass('invalid');
-//       $(Pass2).addClass('valid');
-//     $(Pass2_error).text("");
-//   }
-//
-// });
+  let regxPass = new RegExp($(Pass1).attr('expr-data'));
+  $(Pass1).on('keyup',function(){
+    $(Pass2).val('');
+  if(!regxPass.test($(Pass1).val())){
+    $(Pass1).removeClass('valid');
+      $(Pass1).addClass('invalid');
+    $(Pass1_error).text("Password not match");
+    $(Pass1).focus();
+  }else{
+    $(Pass1).removeClass('invalid');
+      $(Pass1).addClass('valid');
+    $(Pass1_error).text("");
+  }
+
+});
+
+$(Pass2).on('keyup',function(){
+  if((!regxPass.test($(Pass1).val())) || ($(Pass2).val() != $(Pass1).val()) || $(Pass1).val().trim() == '' )
+   {
+    $(Pass2).removeClass('valid');
+      $(Pass2).addClass('invalid');
+    $(Pass2_error).text("the passowrds not the same");
+    $(Pass2).focus();
+
+  }else{
+    $(Pass2).removeClass('invalid');
+      $(Pass2).addClass('valid');
+    $(Pass2_error).text("");
+  }
+
+});
 }
 
 function verifyoption(){
@@ -222,7 +223,6 @@ function verifyfields(){
     if($(value).hasClass('valid'))
     {
       y = y+1;
-      
     }
     
   });

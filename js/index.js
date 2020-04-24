@@ -5,7 +5,7 @@ $(document).ready(function(){
 function enableBtn(){
   $('.form-control').on('change',function(){
 
-    if($('#state').val()!=0){ $('#btn_search').attr("disabled", false);}else{$('#btn_search').attr("disabled", true);}
+    if($('#state').val()!=0 && $('#blood_Type').val()!=0){ $('#btn_search').attr("disabled", false);}else{$('#btn_search').attr("disabled", true);}
       
   });
 }

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="remove the condition of chosing the bllodtype to enable the button">
+    <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="repair the sql query and add relation between volentaire.town as forgein key of the communes table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/getcities.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/getcities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/register_valid.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/register_valid.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/validate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/states.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="dzsang" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,16 +39,16 @@
   <component name="ProjectId" id="1YiXTAjprmmyHWcVQXpqJe4CUvP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -48,14 +58,17 @@
       <recent name="C:\xampp\htdocs\projects\dzsang" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Node.js.main.js">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/Login_v11 - Copy/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dzsang/register.html" useBuiltInWebServerPort="true">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/index.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/index.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Login_v11 - Copy/js/main.js" working-dir="$PROJECT_DIR$/Login_v11 - Copy/js">
       <method v="2" />
     </configuration>
     <configuration name="register.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/register.js" working-dir="$PROJECT_DIR$/js">
@@ -64,16 +77,13 @@
     <configuration name="contactus.html" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/contactus.html">
       <method v="2" />
     </configuration>
-    <configuration name="register_valid.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/includes/register_valid.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="PHP Script.contactus.html" />
-        <item itemvalue="PHP Script.register_valid.php" />
-        <item itemvalue="JavaScript Debug.register.html" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +122,25 @@
       <workItem from="1586088634560" duration="3966000" />
       <workItem from="1586212314347" duration="41000" />
       <workItem from="1586212368262" duration="44000" />
-      <workItem from="1586222128188" duration="821000" />
+      <workItem from="1586222128188" duration="2686000" />
+      <workItem from="1586252690061" duration="69000" />
+      <workItem from="1586349064891" duration="3583000" />
+      <workItem from="1586380053588" duration="185000" />
+      <workItem from="1586522955822" duration="2838000" />
+      <workItem from="1586545430684" duration="397000" />
+      <workItem from="1586545845030" duration="87000" />
+      <workItem from="1586605599334" duration="1287000" />
+      <workItem from="1586635367822" duration="1840000" />
+      <workItem from="1586647492330" duration="606000" />
+      <workItem from="1586703623203" duration="5459000" />
+      <workItem from="1586729422047" duration="49000" />
+      <workItem from="1586729744848" duration="3000" />
+      <workItem from="1586772019598" duration="20000" />
+      <workItem from="1586975032207" duration="52000" />
+      <workItem from="1587156983928" duration="950000" />
+      <workItem from="1587294132447" duration="1142000" />
+      <workItem from="1587595833962" duration="41000" />
+      <workItem from="1587719164859" duration="3080000" />
     </task>
     <task id="LOCAL-00001" summary="remove the condition of chosing the bllodtype to enable the button">
       <created>1586091119685</created>
@@ -121,15 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1586091119685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="repair the sql query and add relation between volentaire.town as forgein key of the communes table">
+      <created>1586223291839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586223291839</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove the condition of chosing the bllodtype to enable the button" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove the condition of chosing the bllodtype to enable the button" />
+    <MESSAGE value="repair the sql query and add relation between volentaire.town as forgein key of the communes table" />
+    <option name="LAST_COMMIT_MESSAGE" value="repair the sql query and add relation between volentaire.town as forgein key of the communes table" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="177" key="#CLI_Interpreters" timestamp="1584104973119">
@@ -152,30 +188,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="235" key="#register.php/0.0.1920.1040@0.0.1920.1040" timestamp="1584105111320" />
-    <state x="598" y="115" key="CommitChangelistDialog2" timestamp="1586091127586">
+    <state x="557" y="115" key="CommitChangelistDialog2" timestamp="1587723067601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091127586" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1585261128749">
+    <state x="557" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587723067601" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1587595873046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585261128749" />
-    <state width="1877" height="166" key="GridCell.Tab.0.bottom" timestamp="1585696043717">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587595873046" />
+    <state width="1877" height="103" key="GridCell.Tab.0.bottom" timestamp="1587157933720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043717" />
-    <state width="1877" height="166" key="GridCell.Tab.0.center" timestamp="1585696043716">
+    <state width="1877" height="103" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1586705594747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043716" />
-    <state width="1877" height="166" key="GridCell.Tab.0.left" timestamp="1585696043716">
+    <state width="1877" height="103" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
+    <state width="1877" height="103" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587157933720" />
+    <state width="1877" height="103" key="GridCell.Tab.0.center" timestamp="1587157933720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043716" />
-    <state width="1877" height="166" key="GridCell.Tab.0.right" timestamp="1585696043716">
+    <state width="1877" height="103" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1586705594747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585696043716" />
+    <state width="1877" height="103" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
+    <state width="1877" height="103" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587157933720" />
+    <state width="1877" height="103" key="GridCell.Tab.0.left" timestamp="1587157933720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="103" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1586705594747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="103" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
+    <state width="1877" height="103" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587157933720" />
+    <state width="1877" height="103" key="GridCell.Tab.0.right" timestamp="1587157933720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="103" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1586705594747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="103" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
+    <state width="1877" height="103" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587157933720" />
     <state x="794" y="451" key="NewPhpFileDialog" timestamp="1584182436990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,22 +236,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="233" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586091028586" />
-    <state x="514" y="243" key="SettingsEditor" timestamp="1586091266036">
+    <state x="888" y="313" key="SettingsEditor" timestamp="1586545914359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="514" y="243" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586091266036" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586091168863">
+    <state x="888" y="313" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586545914359" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586223325643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586091168863" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586212375855">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586223325643" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1587595835729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586212375855" />
-    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586223215162">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587595835729" />
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586223295500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586223215162" />
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586223295500" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1586091316414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
