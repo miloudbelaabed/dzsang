@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     getStates();
     
-    $('#state').on('change', selected);
+     selected();
 
 });
 
@@ -10,10 +10,10 @@ var citiesData ;
 function getStates(){
     
   $.post( "includes/getcities.php",{ cities: "nothing"}, function( data ) {
-   
-    citiesData = data;
+        citiesData = data;
+      //citiesData = JSON.parse(data);
 
-    data.wilayas.map(wilaya => {
+    citiesData.wilayas.map(wilaya => {
 
       $('#state').append(`<option value=${(wilaya.id)} >${wilaya.nom}</option>`);
 
@@ -23,11 +23,13 @@ function getStates(){
 }
 
 function selected(){
+$('#state').on('change',function () {
+
 
   if($('#state').val() != 0){
 
     let cities = citiesData.communes.filter(city => city.wilaya_id == $('#state').val() );
-    // $("#town").html('<option selected disabled value="0">--town--</option>');
+     $("#town").html('<option selected disabled value="0">--town--</option>');
     cities.map(city => {
 
       $('#town').append(`<option value=${(city.id)} >${city.nom_com}</option>`);
@@ -35,4 +37,5 @@ function selected(){
     }else{
      $('#town').html('<option selected disabled value="0">--town--</option>');
    }
-} 
+});
+}
