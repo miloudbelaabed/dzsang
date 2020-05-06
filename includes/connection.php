@@ -19,9 +19,6 @@ private static $password = '';
     return false;
     }
 
-
-
-
 }
 
 ?>
