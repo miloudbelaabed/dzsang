@@ -23,15 +23,5 @@ private static $password = '';
 
 
 }
-//try {
-//    $connection = new PDO("mysql:host=localhost;dbname=dzblood",'root', '');
-//} catch (PDOException $ex){
-//    die("error dans PDO: " . $ex->getMessage() );
-//}
-/*require_once 'config.php';
-    $connection = mysqli_connect(DB_SERVER,DB_USESRNAME,DB_PASSWORD,DB_NAME);
-    if($connection === false){
-            die("ERROR: could Not Connect". mysqli_connect_error());
-    }*/
 
 ?>

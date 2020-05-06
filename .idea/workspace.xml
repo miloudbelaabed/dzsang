@@ -24,25 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="repair login form and repair states select options and &#10;add login form validate information and finally add constraint about the session">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/373eeff0-0698-449d-a758-3a6c088396b3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
+    <list default="true" id="c9d75574-9cbd-4d66-b26b-dd3abd639ddf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/getcities.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/getcities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/register_valid.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/register_valid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/validate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/states.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,37 +88,6 @@
                 <option name="domain" value="localhost" />
                 <option name="name" value="PHPSESSID" />
                 <option name="path" value="/" />
-                <option name="value" value="2m8146n8g71d51mqc5kasvhehc" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost" />
-          <option name="urlPath" value="/projects/dzsang/loginin.php" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="PHPSESSID" />
-                <option name="path" value="/" />
                 <option name="value" value="0ls22j6sgmp6ue3cqjafbpa07o" />
               </Biscuit>
             </list>
@@ -163,6 +116,37 @@
               <KeyValuePair>
                 <option name="key" value="password" />
                 <option name="value" value="123456789" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="PHPSESSID" />
+                <option name="path" value="/" />
+                <option name="value" value="2m8146n8g71d51mqc5kasvhehc" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/projects/dzsang/loginin.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
               </KeyValuePair>
             </list>
           </option>
@@ -507,7 +491,7 @@
       <workItem from="1588647357155" duration="1652000" />
       <workItem from="1588675123208" duration="1217000" />
       <workItem from="1588683832405" duration="18246000" />
-      <workItem from="1588724822392" duration="2951000" />
+      <workItem from="1588724822392" duration="3576000" />
     </task>
     <task id="LOCAL-00001" summary="remove the condition of chosing the bllodtype to enable the button">
       <created>1586091119685</created>
@@ -530,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587723213216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="repair login form and repair states select options and &#10;add login form validate information and finally add constraint about the session">
+      <created>1588728290483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588728290483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,10 +566,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="235" key="#register.php/0.0.1920.1040@0.0.1920.1040" timestamp="1584105111320" />
-    <state x="557" y="115" key="CommitChangelistDialog2" timestamp="1588726439989">
+    <state x="557" y="115" key="CommitChangelistDialog2" timestamp="1588728289354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588726439989" />
+    <state x="557" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588728289354" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1587723396758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -591,38 +582,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588728072559" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1588728118938">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1588728338826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1586705594747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588728118938" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1588728118938">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588728338826" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1588728338826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1586705594747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588728118938" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1588728118938">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588728338826" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1588728338826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1586705594747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588728118938" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1588728118938">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588728338826" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1588728338826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1586705594747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="103" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1586705594747" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588728118938" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588728338826" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1587723689112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -647,18 +638,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588695617765" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1587723854339">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588728366677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587723854339" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588728366677" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1587595835729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587595835729" />
-    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588726303179">
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588728343942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588726303179" />
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588728343942" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588727903869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
